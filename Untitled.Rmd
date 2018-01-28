@@ -1,0 +1,54 @@
+---
+title: "Example"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+```{r}
+set.seed(1234)
+conflict <- rnorm(30,10)
+democracy <- rnorm(30,10)
+mountains <- conflict + runif(30,0,3)
+d <- cbind(conflict,democracy, mountains ) %>% data.table()
+```
+
+
+```{r}
+p1 <- ggplot(d, aes(y = conflict, x = democracy)) + geom_point(col = 'blue') +theme_bw() +ylab("Intensity of Civil Conflict")
+p2 <- ggplot(d, aes(y = conflict, x = democracy)) + geom_point(col = 'blue') +theme_bw() +
+  geom_smooth(method="lm", se = F) +ylab("Intensity of Civil Conflict")
+p3 <- ggplot(d, aes(y = conflict, x = mountains)) + geom_point(col = 'red') +theme_bw() +ylab("Intensity of Civil Conflict")
+p4 <- ggplot(d, aes(y = conflict, x = mountains)) + geom_point(col = 'red') +theme_bw() +
+  geom_smooth(method="lm", se = F, col = "red") + ylab("Intensity of Civil Conflict")
+
+
+ggsave(plot = p1, 'p1.png', width = 14 ,height = 8, units = "cm")
+ggsave(plot = p2, 'p2.png', width = 14 ,height = 8, units = "cm")
+ggsave(plot = p3, 'p3.png', width = 14 ,height = 8, units = "cm")
+ggsave(plot = p4, 'p4.png', width = 14 ,height = 8, units = "cm")
+
+```
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -1,0 +1,107 @@
+---
+title: "How To Think Like A Social Scientist"
+date: "3/8/2017"
+output:
+  beamer_presentation:
+    incremental: true
+    colortheme: dolphin
+    fonttheme: structurebold
+    theme: AnnArbor
+  ioslides_presentation: default
+subtitle: '156A: Russian Politics and Government'
+author: Week 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Social Sciences $\neq$ History
+
+- The Question **historians** try to answer
+
+    - **What actually happened**
+
+- The Question **social scientists** try to answer
+
+    - **Why do something happen / exist**
+
+-  $Outputs / Outcomes$ $\leftarrow$ $Inputs$
+
+- Social Research = $Input \rightarrow Mechanism \rightarrow Output$
+
+## Real Sciences Way
+- 1. Do some initial experiment (mixture of ingredients $\rightarrow$ speed of chemical reaction)
+- 2. Change your inputs (add an extra ingredient) $\rightarrow$
+- 3. Look if your output changed
+
+## Can we do it in social sciences?
+
+- \pause sometimes
+
+    - social scientists cannot "change the input"
+
+- What they usually do?
+
+    - look for a proper comparison unit / group
+
+## Some examples
+
+- Terrorist attacks 
+    
+    - (France, 15 VS France, 21)
+    
+    - (Germany, 21 VS France, 21)
+    
+## Social Science Research Question
+
+- **Why does something happen in one places, but not in the others?**
+
+- Yes or No:
+    
+    - Why do some nations become rich, while other stay poor?
+    - Why do some nations make war on each other?
+    - Why did Donald Trump / Barack Obama win the election?
+    - Lack a group for comparison. \pause Alternative?
+    - Why did Russia fail to democratize?
+    - Alternative?
+
+## A social sciences way of doing research
+
+1. Outcome of Interest: *Intensity of Civil Conflicts*
+2. List of potential explanations:
+
+    - Lack of Democracy -> Grievances -> Conflict
+    - 
+
+- Since "Arab Spring" authoritarian governments learned several lessons
+- **Lesson**: do not be afraid of them, but use social media as a tool of regime durability:
+    * Monitor activity of dissidents (protesting plans) 
+    * General public preferences (e.g., online petitions)
+    * Shape the contours of public discussion (see a review in [Gunitsky,2015]())
+- *Online pro-government commentators*, or *"trolls"* - persons who are paid to support some politician
+
+## Focus on Identification and Tactics
+
+
+## Potential strategies, target groups, style of messaging
+<!-- No conventional wisdom on what are these strategies that trolls employ, I think they can be at least five and this is not mutually exclusive --> 
+- **Promote Pro-government Agenda**: Troll: *“Russia's reunion with Crimea is good”*, User: *“Well... yeah, why not”*
+
+- **Distract Activists from Anti-government conversations**: Users: *“We cannot buy olives because of the Crimea sanctions!”*, Trolls: *“But in the next couple of years, there will be massive olive production in Crimea"*, Users: *“Is it that fast?”*
+
+- **Project Popularity**: *"Putin is the only hope", "Who if not Putin"* 
+
+- **Project Strength**: *"We see all of you and know where you are"*
+
+- **Imitate Anti-government Extremism**: Trolls: *“Let's bribe the military and assault the Kremlin”*, *“Let's also kill chechens because we hate them”.*  
+
+## This paper (for now)
+
+
+## Data collection
+<center>![](figs/TrollsVsRandomUsers.png)
+Collective photo of treated units </center>
+
+
+
